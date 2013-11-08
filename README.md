@@ -17,13 +17,13 @@ and look for the category "ext.EActiveResource"
 2.) Edit your applications main.php config file and add 'application.extensions.EActiveResource.*' to your import definitions
 3.) Add the configuration for your resources to the main config
 
-	        'activeresource'=>array(
-	        	'class'=>'EActiveResourceConnection',
-        		'site'=>'http://api.aRESTservice.com',
-			'contentType'=>'application/json',
-			'acceptType'=>'application/json',
-			'queryCacheId'=>'SomeCacheComponent',
-	       	)
+	'activeresource'=>array(
+		'class'=>'EActiveResourceConnection',
+		'site'=>'http://api.aRESTservice.com',
+		'contentType'=>'application/json',
+		'acceptType'=>'application/json',
+		'queryCacheId'=>'SomeCacheComponent',
+	)
        		
 4.) Now create a class extending EActiveResource like this (don't forget the model() function!):
 
