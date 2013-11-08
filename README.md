@@ -20,9 +20,9 @@ and look for the category "ext.EActiveResource"
 	        'activeresource'=>array(
 	        	'class'=>'EActiveResourceConnection',
         		'site'=>'http://api.aRESTservice.com',
-	            	'contentType'=>'application/json',
-        	    	'acceptType'=>'application/json',
-	       		'queryCacheId'=>'SomeCacheComponent',
+			'contentType'=>'application/json',
+			'acceptType'=>'application/json',
+			'queryCacheId'=>'SomeCacheComponent',
 	       	)
        		
 4.) Now create a class extending EActiveResource like this (don't forget the model() function!):
